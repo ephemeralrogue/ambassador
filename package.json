@@ -1,6 +1,6 @@
 {
-  "name": "passport",
-  "version": "0.4.1",
+  "name": "@nonsensecodes/ambassador",
+  "version": "0.1.0",
   "description": "Simple, unobtrusive authentication for Node.js.",
   "keywords": [
     "express",
@@ -9,11 +9,7 @@
     "authn",
     "authentication"
   ],
-  "author": {
-    "name": "Jared Hanson",
-    "email": "jaredhanson@gmail.com",
-    "url": "http://www.jaredhanson.net/"
-  },
+  "author": "Jared Hanson <jaredhanson@gmail.com> (http://www.jaredhanson.net/)",
   "homepage": "http://passportjs.org/",
   "repository": {
     "type": "git",
@@ -22,7 +18,7 @@
   "bugs": {
     "url": "http://github.com/jaredhanson/passport/issues"
   },
-  "license": "MIT",
+  "license": "GPL-3.0-or-later",
   "licenses": [
     {
       "type": "MIT",
@@ -46,6 +42,10 @@
     "node": ">= 0.4.0"
   },
   "scripts": {
-    "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js test/**/*.test.js"
+    "test": "mocha --reporter spec --require test/bootstrap/node test/*.test.js test/**/*.test.js"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   }
 }
