@@ -2,6 +2,7 @@
   "name": "@nonsensecodes/ambassador",
   "version": "0.1.0",
   "description": "Simple, unobtrusive authentication for Node.js.",
+  "type": "module",
   "keywords": [
     "express",
     "connect",
@@ -9,25 +10,18 @@
     "authn",
     "authentication"
   ],
-  "author": "Jared Hanson <jaredhanson@gmail.com> (http://www.jaredhanson.net/)",
+  "author": "Joshua Alexander Castaneda <dev@nonsensetwice.co> (https://nonsensetwice.co)",
   "homepage": "http://passportjs.org/",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jaredhanson/passport.git"
+    "url": "git://github.com/nonsensecodes/ambassador.git"
   },
   "bugs": {
-    "url": "http://github.com/jaredhanson/passport/issues"
+    "url": "http://github.com/nonsensecodes/ambassador/issues"
   },
   "license": "GPL-3.0-or-later",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://opensource.org/licenses/MIT"
-    }
-  ],
-  "main": "./lib",
+  "main": "index.js",
   "dependencies": {
-    "passport-strategy": "1.x.x",
     "pause": "0.0.1"
   },
   "devDependencies": {

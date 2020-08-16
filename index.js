@@ -1,7 +1,7 @@
 /**
  * Module dependencies.
  */
-var Passport = require('./authenticator')
+import Authenticator as Ambassador from './authenticator.js';
   , SessionStrategy = require('./strategies/session');
 
 
