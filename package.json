@@ -22,6 +22,7 @@
   "license": "GPL-3.0-or-later",
   "main": "index.js",
   "dependencies": {
+    "@nonsensecodes/emissary": "^1.0.3",
     "pause": "0.0.1"
   },
   "devDependencies": {
