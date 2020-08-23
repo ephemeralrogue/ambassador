@@ -1,26 +1,8 @@
-/**
- * Module dependencies.
- */
-import Authenticator as Ambassador from './authenticator.js';
-  , SessionStrategy = require('./strategies/session');
+// Load modules.
+import authenticator from './lib/authenticator.js';
+import OAuth2Strategy from './lib/oauth2strategy.js';
 
+const ambassador = Object.create(authenticator);
+ambassador.buildAuthenticator();
 
-/**
- * Export default singleton.
- *
- * @api public
- */
-exports = module.exports = new Passport();
-
-/**
- * Expose constructors.
- */
-exports.Passport =
-exports.Authenticator = Passport;
-exports.Strategy = require('passport-strategy');
-
-/**
- * Expose strategies.
- */
-exports.strategies = {};
-exports.strategies.SessionStrategy = SessionStrategy;
+export { ambassador, OAuth2Strategy };
