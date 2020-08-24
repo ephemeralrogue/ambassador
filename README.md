@@ -98,8 +98,8 @@ app.post('/login',
 
 ## License
 
-  ambassador: your OAuth2 authentication negotiator
-  Copyright (C) 2020  Joshua Alexander Castaneda
+  ambassador: your OAuth2 authentication negotiator  
+  Copyright (C) 2020  Joshua Alexander Castaneda  
 
   This program is free software: you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
@@ -114,8 +114,8 @@ app.post('/login',
   You should have received a copy of the GNU General Public License
   along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-  This software is based on:
-  [Passport](https://github.com/jaredhanson/passport)
-  [The MIT License](http://opensource.org/licenses/MIT)
+  This software is based on:  
+  [Passport](https://github.com/jaredhanson/passport)  
+  [The MIT License](http://opensource.org/licenses/MIT)  
 
   Copyright (c) 2011-2019 Jared Hanson <[http://jaredhanson.net/](http://jaredhanson.net/)>
