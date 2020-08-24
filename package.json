@@ -1,7 +1,7 @@
 {
   "name": "@nonsensecodes/ambassador",
-  "version": "0.1.01",
-  "description": "Simple, unobtrusive authentication for Node.js.",
+  "version": "0.1.02",
+  "description": "Your OAuth2 authentication negotiator.",
   "type": "module",
   "keywords": [
     "express",
