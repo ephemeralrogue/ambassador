@@ -1,6 +1,6 @@
 {
   "name": "@nonsensecodes/ambassador",
-  "version": "0.1.02",
+  "version": "0.2.0",
   "description": "Your OAuth2 authentication negotiator.",
   "type": "module",
   "keywords": [

@@ -4,14 +4,17 @@ ambassador is [Express](http://expressjs.com/)-compatible authentication
 middleware for [Node.js](http://nodejs.org/), featuring JS Object Delegation
 and full support for ES6 modules.
 
-ambassador manages authentication. The primary concept is that ambassador assists in
-utilizing third-party services to log users in and out of the designated application.
-ambassador does not mount routes or assume any particular database schema, allowing
-a great deal of flexibility in terms of implementation. As the developer, you determine
-how to manage user and session data; ambassador simply negotiates the exchange of 
-authentication codes for access tokens via emissary, and provides the means to
-retrieve user data from the OAuth source. Currently, ambassador handles authentication
-via the OAuth2 protocol. More services will be added in the future.
+ambassador manages authentication. The primary concept is that ambassador
+assists in utilizing third-party services to log users in and out of the
+designated application. ambassador does not mount routes or assume any
+particular database schema, allowing a great deal of flexibility in terms of
+implementation. As the developer, you determine how to manage user and
+session data; ambassador simply negotiates the exchange of authentication
+codes for access tokens via OAuth 1.0/2.0 emissaries, and provides the means
+to retrieve user data from the OAuth source. Currently, ambassador handles
+authentication via the OAuth2 protocol, with ambassadors to handle
+authentication through Discord and generic OAuth 2.0. More ambassadors will
+be added in the future.
 
 ## Install
 
@@ -25,7 +28,8 @@ $ npm install @nonsensecodes/ambassador
 
 Before authenticating requests, the strategy (or strategies) used by an
 application must be configured. This is done by passing OAuth2 credentials
-to the OAuth2 strategy. The strategy can then be called to handle authentication:
+to the OAuth2 strategy. The strategy can then be called to handle
+authentication:
 
 ```javascript
 import { ambassador, OAuth2Strategy } from '@nonsensecodes/ambassador';
@@ -44,14 +48,12 @@ ambassador.use(OAuth2Strategy, function verify());
 #### Sessions
 
 ambassador will maintain persistent login sessions.  In order for persistent
-sessions to work, the authenticated user must be serialized to the session, and
-deserialized when subsequent requests are made.
-
-ambassador does not impose any restrictions on how your user records are stored.
-Instead, you provide functions to ambassador which implements the necessary
-serialization and deserialization logic.  In a typical application, this will be
-as simple as serializing the user ID, and finding the user by ID when
-deserializing.
+sessions to work, the authenticated user must be serialized to the session,
+and deserialized when subsequent requests are made. ambassador does not
+impose any restrictions on how your user records are stored. Instead, you
+provide functions to ambassador which implements the necessary serialization
+and deserialization logic.  In a typical application, this will be as simple
+as serializing the user ID, and finding the user by ID when deserializing.
 
 ```javascript
 ambassador.serializeUser(function(user, done) {
@@ -68,10 +70,10 @@ ambassador.deserializeUser(function(id, done) {
 #### Middleware
 
 To use ambassador in an [Express](http://expressjs.com/) or
-[Connect](http://senchalabs.github.com/connect/)-based application, configure it
-with the required `ambassador.initialize()` middleware.  If your application uses
-persistent login sessions (recommended, but not required), `ambassador.session()`
-middleware must also be used.
+[Connect](http://senchalabs.github.com/connect/)-based application,
+configure it with the required `ambassador.initialize()` middleware. If your
+application uses persistent login sessions (recommended, but not required),
+`ambassador.session()` middleware must also be used.
 
 ```javascript
 var app = express();
