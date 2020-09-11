@@ -1,13 +1,13 @@
 // Load modules.
 import authenticator from './lib/authenticator.js';
-import OAuth2Ambassador from './lib/ambassadors/oauth2.js';
-import discordAmbassador from './lib/ambassadors/discord.js';
+import OAuth2Emissary from './lib/emissaries/oauth2.js';
+import discordEmissary from './lib/emissaries/discord.js';
 
 const ambassador = Object.create(authenticator);
-ambassador.buildAuthenticator();
+ambassador._populateAuthenticator();
 
 export {
   ambassador,
-  OAuth2Ambassador,
-  discordAmbassador
+  OAuth2Emissary,
+  discordEmissary
 };
