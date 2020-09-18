@@ -5,10 +5,9 @@
   "type": "module",
   "keywords": [
     "express",
-    "connect",
     "auth",
-    "authn",
-    "authentication"
+    "authentication",
+    "es6 modules"
   ],
   "author": "Joshua Alexander Castaneda <dev@nonsensetwice.co> (https://nonsensetwice.co)",
   "homepage": "http://nonsensetwice.co/ambassador",
@@ -16,28 +15,13 @@
     "type": "git",
     "url": "git://github.com/nonsensecodes/ambassador.git"
   },
-  "bugs": {
-    "url": "http://github.com/nonsensecodes/ambassador/issues"
-  },
   "license": "GPL-3.0-or-later",
   "main": "index.js",
   "dependencies": {
-    "@nonsensecodes/emissary": "^1.0.3",
     "pause": "0.0.1"
-  },
-  "devDependencies": {
-    "make-node": "0.3.x",
-    "mocha": "2.x.x",
-    "chai": "2.x.x",
-    "chai-connect-middleware": "0.3.x",
-    "chai-passport-strategy": "0.2.x",
-    "proxyquire": "1.4.x"
   },
   "engines": {
     "node": ">= 0.4.0"
-  },
-  "scripts": {
-    "test": "mocha --reporter spec --require test/bootstrap/node test/*.test.js test/**/*.test.js"
   },
   "directories": {
     "lib": "lib",
