@@ -2,8 +2,8 @@ docs/
 reports/
 
 # CodeQL
-codeql/src/
-codeql/trap/
+codeql/src
+codeql/trap
 
 # Mac OS X
 .DS_Store
