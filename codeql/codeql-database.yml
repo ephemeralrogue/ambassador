@@ -2,20 +2,3 @@
 sourceLocationPrefix: "/home/nonsensetwice/ambassador"
 unicodeNewlines: true
 columnKind: "utf16"
-inProgress:
-  primaryLanguage: "javascript"
-  installedExtractors:
-    cpp:
-    - "file:///home/nonsensetwice/codeql/codeql/cpp/"
-    csharp:
-    - "file:///home/nonsensetwice/codeql/codeql/csharp/"
-    go:
-    - "file:///home/nonsensetwice/codeql/codeql/go/"
-    java:
-    - "file:///home/nonsensetwice/codeql/codeql/java/"
-    javascript:
-    - "file:///home/nonsensetwice/codeql/codeql/javascript/"
-    python:
-    - "file:///home/nonsensetwice/codeql/codeql/python/"
-    xml:
-    - "file:///home/nonsensetwice/codeql/codeql/xml/"
