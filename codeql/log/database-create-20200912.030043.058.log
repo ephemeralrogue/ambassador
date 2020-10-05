@@ -1,0 +1,356 @@
+[2020-09-12 03:00:43] This is codeql database create /home/nonsensetwice/ambassador/codeql --language=javascript
+[2020-09-12 03:00:43] Log file was started late.
+[2020-09-12 03:00:43] Using autobuild script /home/nonsensetwice/codeql/codeql/javascript/tools/autobuild.sh.
+[2020-09-12 03:00:43] [DETAILS] database create> Detected autobuild command: /home/nonsensetwice/codeql/codeql/javascript/tools/autobuild.sh.
+[2020-09-12 03:00:43] [PROGRESS] database create> Running command [/home/nonsensetwice/codeql/codeql/javascript/tools/autobuild.sh] in /home/nonsensetwice/ambassador.
+[2020-09-12 03:00:43] Running plumbing command: codeql database trace-command --working-dir=/home/nonsensetwice/ambassador -- /home/nonsensetwice/ambassador/codeql /home/nonsensetwice/codeql/codeql/javascript/tools/autobuild.sh
+[2020-09-12 03:00:43] [PROGRESS] database trace-command> /home/nonsensetwice/ambassador/codeql: Running in /home/nonsensetwice/ambassador: [/home/nonsensetwice/codeql/codeql/javascript/tools/autobuild.sh]
+[2020-09-12 03:00:43] [build] Single-threaded extraction.
+[2020-09-12 03:00:43] [build] Extracting /home/nonsensetwice/ambassador/lib/ambassadors/discord.js
+[2020-09-12 03:00:44] [build] Done extracting /home/nonsensetwice/ambassador/lib/ambassadors/discord.js (480 ms)
+[2020-09-12 03:00:44] [build] Extracting /home/nonsensetwice/ambassador/lib/ambassadors/oauth1.js
+[2020-09-12 03:00:44] [build] Done extracting /home/nonsensetwice/ambassador/lib/ambassadors/oauth1.js (4 ms)
+[2020-09-12 03:00:44] [build] Extracting /home/nonsensetwice/ambassador/lib/ambassadors/oauth2.js
+[2020-09-12 03:00:44] [build] Done extracting /home/nonsensetwice/ambassador/lib/ambassadors/oauth2.js (39 ms)
+[2020-09-12 03:00:44] [build] Extracting /home/nonsensetwice/ambassador/lib/ambassadors/twitter.js
+[2020-09-12 03:00:44] [build] Done extracting /home/nonsensetwice/ambassador/lib/ambassadors/twitter.js (1 ms)
+[2020-09-12 03:00:44] [build] Extracting /home/nonsensetwice/ambassador/lib/embassy/oauth1delegate.js
+[2020-09-12 03:00:44] [build] Done extracting /home/nonsensetwice/ambassador/lib/embassy/oauth1delegate.js (58 ms)
+[2020-09-12 03:00:44] [build] Extracting /home/nonsensetwice/ambassador/lib/embassy/oauth1emissary.js
+[2020-09-12 03:00:45] [build] Done extracting /home/nonsensetwice/ambassador/lib/embassy/oauth1emissary.js (709 ms)
+[2020-09-12 03:00:45] [build] Extracting /home/nonsensetwice/ambassador/lib/embassy/oauth2delegate.js
+[2020-09-12 03:00:45] [build] Done extracting /home/nonsensetwice/ambassador/lib/embassy/oauth2delegate.js (177 ms)
+[2020-09-12 03:00:45] [build] Extracting /home/nonsensetwice/ambassador/lib/embassy/oauth2emissary.js
+[2020-09-12 03:00:45] [build] Done extracting /home/nonsensetwice/ambassador/lib/embassy/oauth2emissary.js (202 ms)
+[2020-09-12 03:00:45] [build] Extracting /home/nonsensetwice/ambassador/lib/embassy/oauthembassy.js
+[2020-09-12 03:00:45] [build] Done extracting /home/nonsensetwice/ambassador/lib/embassy/oauthembassy.js (72 ms)
+[2020-09-12 03:00:45] [build] Extracting /home/nonsensetwice/ambassador/lib/errors/authenticationerror.js
+[2020-09-12 03:00:45] [build] Done extracting /home/nonsensetwice/ambassador/lib/errors/authenticationerror.js (14 ms)
+[2020-09-12 03:00:45] [build] Extracting /home/nonsensetwice/ambassador/lib/errors/authorizationerror.js
+[2020-09-12 03:00:45] [build] Done extracting /home/nonsensetwice/ambassador/lib/errors/authorizationerror.js (23 ms)
+[2020-09-12 03:00:45] [build] Extracting /home/nonsensetwice/ambassador/lib/errors/internaloautherror.js
+[2020-09-12 03:00:45] [build] Done extracting /home/nonsensetwice/ambassador/lib/errors/internaloautherror.js (25 ms)
+[2020-09-12 03:00:45] [build] Extracting /home/nonsensetwice/ambassador/lib/errors/tokenerror.js
+[2020-09-12 03:00:45] [build] Done extracting /home/nonsensetwice/ambassador/lib/errors/tokenerror.js (19 ms)
+[2020-09-12 03:00:45] [build] Extracting /home/nonsensetwice/ambassador/lib/framework/authenticate.js
+[2020-09-12 03:00:45] [build] Done extracting /home/nonsensetwice/ambassador/lib/framework/authenticate.js (132 ms)
+[2020-09-12 03:00:45] [build] Extracting /home/nonsensetwice/ambassador/lib/framework/connect.js
+[2020-09-12 03:00:46] [build] Done extracting /home/nonsensetwice/ambassador/lib/framework/connect.js (69 ms)
+[2020-09-12 03:00:46] [build] Extracting /home/nonsensetwice/ambassador/lib/framework/initialize.js
+[2020-09-12 03:00:46] [build] Done extracting /home/nonsensetwice/ambassador/lib/framework/initialize.js (46 ms)
+[2020-09-12 03:00:46] [build] Extracting /home/nonsensetwice/ambassador/lib/framework/request.js
+[2020-09-12 03:00:46] [build] Done extracting /home/nonsensetwice/ambassador/lib/framework/request.js (87 ms)
+[2020-09-12 03:00:46] [build] Extracting /home/nonsensetwice/ambassador/lib/state/null.js
+[2020-09-12 03:00:46] [build] Done extracting /home/nonsensetwice/ambassador/lib/state/null.js (17 ms)
+[2020-09-12 03:00:46] [build] Extracting /home/nonsensetwice/ambassador/lib/state/oauth1session.js
+[2020-09-12 03:00:46] [build] Done extracting /home/nonsensetwice/ambassador/lib/state/oauth1session.js (25 ms)
+[2020-09-12 03:00:46] [build] Extracting /home/nonsensetwice/ambassador/lib/state/oauth2session.js
+[2020-09-12 03:00:46] [build] Done extracting /home/nonsensetwice/ambassador/lib/state/oauth2session.js (34 ms)
+[2020-09-12 03:00:46] [build] Extracting /home/nonsensetwice/ambassador/lib/utilities/sha1.js
+[2020-09-12 03:00:46] [build] Done extracting /home/nonsensetwice/ambassador/lib/utilities/sha1.js (183 ms)
+[2020-09-12 03:00:46] [build] Extracting /home/nonsensetwice/ambassador/lib/utilities/uniqueid.js
+[2020-09-12 03:00:46] [build] Done extracting /home/nonsensetwice/ambassador/lib/utilities/uniqueid.js (19 ms)
+[2020-09-12 03:00:46] [build] Extracting /home/nonsensetwice/ambassador/lib/utilities/utils.js
+[2020-09-12 03:00:46] [build] Done extracting /home/nonsensetwice/ambassador/lib/utilities/utils.js (49 ms)
+[2020-09-12 03:00:46] [build] Extracting /home/nonsensetwice/ambassador/test/bootstrap/node.js
+[2020-09-12 03:00:46] [build] Done extracting /home/nonsensetwice/ambassador/test/bootstrap/node.js (52 ms)
+[2020-09-12 03:00:46] [build] Extracting /home/nonsensetwice/ambassador/test/http/request.test.js
+[2020-09-12 03:00:46] [build] Done extracting /home/nonsensetwice/ambassador/test/http/request.test.js (222 ms)
+[2020-09-12 03:00:46] [build] Extracting /home/nonsensetwice/ambassador/test/middleware/authenticate.error.callback.test.js
+[2020-09-12 03:00:46] [build] Done extracting /home/nonsensetwice/ambassador/test/middleware/authenticate.error.callback.test.js (64 ms)
+[2020-09-12 03:00:46] [build] Extracting /home/nonsensetwice/ambassador/test/middleware/authenticate.error.test.js
+[2020-09-12 03:00:46] [build] Done extracting /home/nonsensetwice/ambassador/test/middleware/authenticate.error.test.js (23 ms)
+[2020-09-12 03:00:46] [build] Extracting /home/nonsensetwice/ambassador/test/middleware/authenticate.fail.callback.test.js
+[2020-09-12 03:00:47] [build] Done extracting /home/nonsensetwice/ambassador/test/middleware/authenticate.fail.callback.test.js (147 ms)
+[2020-09-12 03:00:47] [build] Extracting /home/nonsensetwice/ambassador/test/middleware/authenticate.fail.flash.test.js
+[2020-09-12 03:00:47] [build] Done extracting /home/nonsensetwice/ambassador/test/middleware/authenticate.fail.flash.test.js (472 ms)
+[2020-09-12 03:00:47] [build] Extracting /home/nonsensetwice/ambassador/test/middleware/authenticate.fail.message.test.js
+[2020-09-12 03:00:47] [build] Done extracting /home/nonsensetwice/ambassador/test/middleware/authenticate.fail.message.test.js (101 ms)
+[2020-09-12 03:00:47] [build] Extracting /home/nonsensetwice/ambassador/test/middleware/authenticate.fail.multi.test.js
+[2020-09-12 03:00:47] [build] Done extracting /home/nonsensetwice/ambassador/test/middleware/authenticate.fail.multi.test.js (200 ms)
+[2020-09-12 03:00:47] [build] Extracting /home/nonsensetwice/ambassador/test/middleware/authenticate.fail.test.js
+[2020-09-12 03:00:48] [build] Done extracting /home/nonsensetwice/ambassador/test/middleware/authenticate.fail.test.js (215 ms)
+[2020-09-12 03:00:48] [build] Extracting /home/nonsensetwice/ambassador/test/middleware/authenticate.pass.test.js
+[2020-09-12 03:00:48] [build] Done extracting /home/nonsensetwice/ambassador/test/middleware/authenticate.pass.test.js (14 ms)
+[2020-09-12 03:00:48] [build] Extracting /home/nonsensetwice/ambassador/test/middleware/authenticate.redirect.test.js
+[2020-09-12 03:00:48] [build] Done extracting /home/nonsensetwice/ambassador/test/middleware/authenticate.redirect.test.js (65 ms)
+[2020-09-12 03:00:48] [build] Extracting /home/nonsensetwice/ambassador/test/middleware/authenticate.success.callback.test.js
+[2020-09-12 03:00:48] [build] Done extracting /home/nonsensetwice/ambassador/test/middleware/authenticate.success.callback.test.js (36 ms)
+[2020-09-12 03:00:48] [build] Extracting /home/nonsensetwice/ambassador/test/middleware/authenticate.success.flash.test.js
+[2020-09-12 03:00:48] [build] Done extracting /home/nonsensetwice/ambassador/test/middleware/authenticate.success.flash.test.js (446 ms)
+[2020-09-12 03:00:48] [build] Extracting /home/nonsensetwice/ambassador/test/middleware/authenticate.success.info.test.js
+[2020-09-12 03:00:48] [build] Done extracting /home/nonsensetwice/ambassador/test/middleware/authenticate.success.info.test.js (97 ms)
+[2020-09-12 03:00:48] [build] Extracting /home/nonsensetwice/ambassador/test/middleware/authenticate.success.message.test.js
+[2020-09-12 03:00:48] [build] Done extracting /home/nonsensetwice/ambassador/test/middleware/authenticate.success.message.test.js (83 ms)
+[2020-09-12 03:00:48] [build] Extracting /home/nonsensetwice/ambassador/test/middleware/authenticate.success.multi.test.js
+[2020-09-12 03:00:48] [build] Done extracting /home/nonsensetwice/ambassador/test/middleware/authenticate.success.multi.test.js (29 ms)
+[2020-09-12 03:00:48] [build] Extracting /home/nonsensetwice/ambassador/test/middleware/authenticate.success.test.js
+[2020-09-12 03:00:48] [build] Done extracting /home/nonsensetwice/ambassador/test/middleware/authenticate.success.test.js (121 ms)
+[2020-09-12 03:00:48] [build] Extracting /home/nonsensetwice/ambassador/test/middleware/authenticate.test.js
+[2020-09-12 03:00:49] [build] Done extracting /home/nonsensetwice/ambassador/test/middleware/authenticate.test.js (17 ms)
+[2020-09-12 03:00:49] [build] Extracting /home/nonsensetwice/ambassador/test/middleware/initialize.test.js
+[2020-09-12 03:00:49] [build] Done extracting /home/nonsensetwice/ambassador/test/middleware/initialize.test.js (64 ms)
+[2020-09-12 03:00:49] [build] Extracting /home/nonsensetwice/ambassador/test/strategies/session.pause.test.js
+[2020-09-12 03:00:49] [build] Done extracting /home/nonsensetwice/ambassador/test/strategies/session.pause.test.js (49 ms)
+[2020-09-12 03:00:49] [build] Extracting /home/nonsensetwice/ambassador/test/strategies/session.test.js
+[2020-09-12 03:00:49] [build] Done extracting /home/nonsensetwice/ambassador/test/strategies/session.test.js (81 ms)
+[2020-09-12 03:00:49] [build] Extracting /home/nonsensetwice/ambassador/lib/authenticator.js
+[2020-09-12 03:00:49] [build] Done extracting /home/nonsensetwice/ambassador/lib/authenticator.js (79 ms)
+[2020-09-12 03:00:49] [build] Extracting /home/nonsensetwice/ambassador/lib/sessionmanager.js
+[2020-09-12 03:00:49] [build] Done extracting /home/nonsensetwice/ambassador/lib/sessionmanager.js (19 ms)
+[2020-09-12 03:00:49] [build] Extracting /home/nonsensetwice/ambassador/lib/sessionstrategy.js
+[2020-09-12 03:00:49] [build] Done extracting /home/nonsensetwice/ambassador/lib/sessionstrategy.js (15 ms)
+[2020-09-12 03:00:49] [build] Extracting /home/nonsensetwice/ambassador/test/authenticator.framework.test.js
+[2020-09-12 03:00:49] [build] Done extracting /home/nonsensetwice/ambassador/test/authenticator.framework.test.js (13 ms)
+[2020-09-12 03:00:49] [build] Extracting /home/nonsensetwice/ambassador/test/authenticator.middleware.test.js
+[2020-09-12 03:00:49] [build] Done extracting /home/nonsensetwice/ambassador/test/authenticator.middleware.test.js (117 ms)
+[2020-09-12 03:00:49] [build] Extracting /home/nonsensetwice/ambassador/test/authenticator.test.js
+[2020-09-12 03:00:49] [build] Done extracting /home/nonsensetwice/ambassador/test/authenticator.test.js (379 ms)
+[2020-09-12 03:00:49] [build] Extracting /home/nonsensetwice/ambassador/test/package.test.js
+[2020-09-12 03:00:49] [build] Done extracting /home/nonsensetwice/ambassador/test/package.test.js (11 ms)
+[2020-09-12 03:00:49] [build] Extracting /home/nonsensetwice/ambassador/index.js
+[2020-09-12 03:00:49] [build] Done extracting /home/nonsensetwice/ambassador/index.js (6 ms)
+[2020-09-12 03:00:49] [build] Extracting /home/nonsensetwice/ambassador/package.json
+[2020-09-12 03:00:49] [build] Done extracting /home/nonsensetwice/ambassador/package.json (14 ms)
+[2020-09-12 03:00:49] [build-err] No externs trap cache found
+[2020-09-12 03:00:49] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/lib/vows.js
+[2020-09-12 03:00:50] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/lib/vows.js (90 ms)
+[2020-09-12 03:00:50] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/lib/bdd.js
+[2020-09-12 03:00:50] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/lib/bdd.js (23 ms)
+[2020-09-12 03:00:50] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/lib/should.js
+[2020-09-12 03:00:50] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/lib/should.js (41 ms)
+[2020-09-12 03:00:50] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/lib/jquery-3.2.js
+[2020-09-12 03:00:50] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/lib/jquery-3.2.js (532 ms)
+[2020-09-12 03:00:50] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/vm/rhino.js
+[2020-09-12 03:00:50] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/vm/rhino.js (12 ms)
+[2020-09-12 03:00:50] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/vm/jsshell.js
+[2020-09-12 03:00:50] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/vm/jsshell.js (103 ms)
+[2020-09-12 03:00:50] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/vm/spidermonkey.js
+[2020-09-12 03:00:50] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/vm/spidermonkey.js (5 ms)
+[2020-09-12 03:00:50] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/vm/v8.js
+[2020-09-12 03:00:50] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/vm/v8.js (10 ms)
+[2020-09-12 03:00:50] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/readline.js
+[2020-09-12 03:00:50] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/readline.js (101 ms)
+[2020-09-12 03:00:50] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/dns.js
+[2020-09-12 03:00:50] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/dns.js (85 ms)
+[2020-09-12 03:00:50] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/punycode.js
+[2020-09-12 03:00:51] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/punycode.js (23 ms)
+[2020-09-12 03:00:51] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/fs.js
+[2020-09-12 03:00:51] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/fs.js (396 ms)
+[2020-09-12 03:00:51] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/globals.js
+[2020-09-12 03:00:51] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/globals.js (360 ms)
+[2020-09-12 03:00:51] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/os.js
+[2020-09-12 03:00:51] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/os.js (55 ms)
+[2020-09-12 03:00:51] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/assert.js
+[2020-09-12 03:00:51] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/assert.js (41 ms)
+[2020-09-12 03:00:51] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/module.js
+[2020-09-12 03:00:51] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/module.js (14 ms)
+[2020-09-12 03:00:51] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/vm.js
+[2020-09-12 03:00:51] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/vm.js (34 ms)
+[2020-09-12 03:00:51] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/domain.js
+[2020-09-12 03:00:51] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/domain.js (22 ms)
+[2020-09-12 03:00:51] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/stream.js
+[2020-09-12 03:00:52] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/stream.js (190 ms)
+[2020-09-12 03:00:52] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/util.js
+[2020-09-12 03:00:52] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/util.js (54 ms)
+[2020-09-12 03:00:52] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/net.js
+[2020-09-12 03:00:52] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/net.js (85 ms)
+[2020-09-12 03:00:52] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/repl.js
+[2020-09-12 03:00:52] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/repl.js (19 ms)
+[2020-09-12 03:00:52] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/querystring.js
+[2020-09-12 03:00:52] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/querystring.js (23 ms)
+[2020-09-12 03:00:52] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/cluster.js
+[2020-09-12 03:00:52] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/cluster.js (253 ms)
+[2020-09-12 03:00:52] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/tty.js
+[2020-09-12 03:00:52] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/tty.js (50 ms)
+[2020-09-12 03:00:52] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/tls.js
+[2020-09-12 03:00:52] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/tls.js (120 ms)
+[2020-09-12 03:00:52] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/console.js
+[2020-09-12 03:00:52] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/console.js (4 ms)
+[2020-09-12 03:00:52] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/timers.js
+[2020-09-12 03:00:52] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/timers.js (21 ms)
+[2020-09-12 03:00:52] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/constants.js
+[2020-09-12 03:00:53] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/constants.js (398 ms)
+[2020-09-12 03:00:53] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/v8.js
+[2020-09-12 03:00:53] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/v8.js (20 ms)
+[2020-09-12 03:00:53] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/dgram.js
+[2020-09-12 03:00:53] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/dgram.js (43 ms)
+[2020-09-12 03:00:53] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/assert_legacy.js
+[2020-09-12 03:00:53] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/assert_legacy.js (7 ms)
+[2020-09-12 03:00:53] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/zlib.js
+[2020-09-12 03:00:53] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/zlib.js (78 ms)
+[2020-09-12 03:00:53] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/events.js
+[2020-09-12 03:00:53] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/events.js (30 ms)
+[2020-09-12 03:00:53] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/url.js
+[2020-09-12 03:00:53] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/url.js (18 ms)
+[2020-09-12 03:00:53] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/buffer.js
+[2020-09-12 03:00:53] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/buffer.js (26 ms)
+[2020-09-12 03:00:53] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/path.js
+[2020-09-12 03:00:53] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/path.js (52 ms)
+[2020-09-12 03:00:53] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/string_decoder.js
+[2020-09-12 03:00:53] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/string_decoder.js (10 ms)
+[2020-09-12 03:00:53] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/sys.js
+[2020-09-12 03:00:53] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/sys.js (2 ms)
+[2020-09-12 03:00:53] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/crypto.js
+[2020-09-12 03:00:53] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/crypto.js (200 ms)
+[2020-09-12 03:00:53] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/http.js
+[2020-09-12 03:00:53] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/http.js (144 ms)
+[2020-09-12 03:00:53] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/process.js
+[2020-09-12 03:00:53] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/process.js (24 ms)
+[2020-09-12 03:00:53] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/https.js
+[2020-09-12 03:00:53] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/https.js (36 ms)
+[2020-09-12 03:00:53] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/child_process.js
+[2020-09-12 03:00:54] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/nodejs/child_process.js (176 ms)
+[2020-09-12 03:00:54] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/es/es3.js
+[2020-09-12 03:00:54] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/es/es3.js (331 ms)
+[2020-09-12 03:00:54] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/es/proxy.js
+[2020-09-12 03:00:54] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/es/proxy.js (2 ms)
+[2020-09-12 03:00:54] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/es/intl.js
+[2020-09-12 03:00:54] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/es/intl.js (36 ms)
+[2020-09-12 03:00:54] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/es/es2016.js
+[2020-09-12 03:00:54] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/es/es2016.js (5 ms)
+[2020-09-12 03:00:54] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/es/es2017.js
+[2020-09-12 03:00:54] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/es/es2017.js (7 ms)
+[2020-09-12 03:00:54] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/es/es6_collections.js
+[2020-09-12 03:00:54] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/es/es6_collections.js (32 ms)
+[2020-09-12 03:00:54] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/es/es6.js
+[2020-09-12 03:00:54] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/es/es6.js (215 ms)
+[2020-09-12 03:00:54] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/es/es5.js
+[2020-09-12 03:00:54] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/es/es5.js (33 ms)
+[2020-09-12 03:00:54] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/gecko_xml.js
+[2020-09-12 03:00:54] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/gecko_xml.js (6 ms)
+[2020-09-12 03:00:54] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_navigation_timing.js
+[2020-09-12 03:00:54] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_navigation_timing.js (63 ms)
+[2020-09-12 03:00:54] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/gecko_css.js
+[2020-09-12 03:00:54] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/gecko_css.js (34 ms)
+[2020-09-12 03:00:54] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_gamepad.js
+[2020-09-12 03:00:54] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_gamepad.js (10 ms)
+[2020-09-12 03:00:54] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/ie_css.js
+[2020-09-12 03:00:55] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/ie_css.js (32 ms)
+[2020-09-12 03:00:55] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/html5.js
+[2020-09-12 03:00:55] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/html5.js (583 ms)
+[2020-09-12 03:00:55] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/whatwg_encoding.js
+[2020-09-12 03:00:55] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/whatwg_encoding.js (5 ms)
+[2020-09-12 03:00:55] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/webkit_event.js
+[2020-09-12 03:00:55] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/webkit_event.js (2 ms)
+[2020-09-12 03:00:55] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/mediasource.js
+[2020-09-12 03:00:55] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/mediasource.js (24 ms)
+[2020-09-12 03:00:55] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/window.js
+[2020-09-12 03:00:55] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/window.js (16 ms)
+[2020-09-12 03:00:55] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/iphone.js
+[2020-09-12 03:00:55] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/iphone.js (43 ms)
+[2020-09-12 03:00:55] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_pointer_events.js
+[2020-09-12 03:00:55] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_pointer_events.js (14 ms)
+[2020-09-12 03:00:55] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_encoding.js
+[2020-09-12 03:00:55] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_encoding.js (8 ms)
+[2020-09-12 03:00:55] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_css.js
+[2020-09-12 03:00:56] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_css.js (290 ms)
+[2020-09-12 03:00:56] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/fetchapi.js
+[2020-09-12 03:00:56] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/fetchapi.js (66 ms)
+[2020-09-12 03:00:56] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_requestidlecallback.js
+[2020-09-12 03:00:56] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_requestidlecallback.js (4 ms)
+[2020-09-12 03:00:56] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_screen_orientation.js
+[2020-09-12 03:00:56] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_screen_orientation.js (6 ms)
+[2020-09-12 03:00:56] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/ie_event.js
+[2020-09-12 03:00:56] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/ie_event.js (38 ms)
+[2020-09-12 03:00:56] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_batterystatus.js
+[2020-09-12 03:00:56] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_batterystatus.js (6 ms)
+[2020-09-12 03:00:56] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_event.js
+[2020-09-12 03:00:56] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_event.js (78 ms)
+[2020-09-12 03:00:56] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/webstorage.js
+[2020-09-12 03:00:56] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/webstorage.js (22 ms)
+[2020-09-12 03:00:56] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/gecko_ext.js
+[2020-09-12 03:00:56] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/gecko_ext.js (2 ms)
+[2020-09-12 03:00:56] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_indexeddb.js
+[2020-09-12 03:00:56] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_indexeddb.js (141 ms)
+[2020-09-12 03:00:56] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_device_sensor_event.js
+[2020-09-12 03:00:56] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_device_sensor_event.js (14 ms)
+[2020-09-12 03:00:56] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_touch_event.js
+[2020-09-12 03:00:56] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_touch_event.js (35 ms)
+[2020-09-12 03:00:56] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_css3d.js
+[2020-09-12 03:00:56] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_css3d.js (18 ms)
+[2020-09-12 03:00:56] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_elementtraversal.js
+[2020-09-12 03:00:56] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_elementtraversal.js (11 ms)
+[2020-09-12 03:00:56] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_dom2.js
+[2020-09-12 03:00:56] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_dom2.js (330 ms)
+[2020-09-12 03:00:56] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/gecko_event.js
+[2020-09-12 03:00:56] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/gecko_event.js (31 ms)
+[2020-09-12 03:00:56] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/page_visibility.js
+[2020-09-12 03:00:56] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/page_visibility.js (4 ms)
+[2020-09-12 03:00:56] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/webgl.js
+[2020-09-12 03:00:57] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/webgl.js (445 ms)
+[2020-09-12 03:00:57] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/gecko_dom.js
+[2020-09-12 03:00:57] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/gecko_dom.js (151 ms)
+[2020-09-12 03:00:57] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_permissions.js
+[2020-09-12 03:00:57] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_permissions.js (19 ms)
+[2020-09-12 03:00:57] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_webcrypto.js
+[2020-09-12 03:00:57] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_webcrypto.js (65 ms)
+[2020-09-12 03:00:57] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/chrome.js
+[2020-09-12 03:00:57] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/chrome.js (67 ms)
+[2020-09-12 03:00:57] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_anim_timing.js
+[2020-09-12 03:00:57] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_anim_timing.js (17 ms)
+[2020-09-12 03:00:57] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_event3.js
+[2020-09-12 03:00:57] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_event3.js (10 ms)
+[2020-09-12 03:00:57] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/intl.js
+[2020-09-12 03:00:57] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/intl.js (29 ms)
+[2020-09-12 03:00:57] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/flash.js
+[2020-09-12 03:00:57] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/flash.js (25 ms)
+[2020-09-12 03:00:57] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_geolocation.js
+[2020-09-12 03:00:57] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_geolocation.js (21 ms)
+[2020-09-12 03:00:57] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/ie_vml.js
+[2020-09-12 03:00:57] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/ie_vml.js (8 ms)
+[2020-09-12 03:00:57] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/webkit_notifications.js
+[2020-09-12 03:00:57] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/webkit_notifications.js (32 ms)
+[2020-09-12 03:00:57] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/ie_dom.js
+[2020-09-12 03:00:58] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/ie_dom.js (186 ms)
+[2020-09-12 03:00:58] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/streamsapi.js
+[2020-09-12 03:00:58] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/streamsapi.js (60 ms)
+[2020-09-12 03:00:58] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_dom1.js
+[2020-09-12 03:00:58] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_dom1.js (90 ms)
+[2020-09-12 03:00:58] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/webkit_css.js
+[2020-09-12 03:00:58] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/webkit_css.js (152 ms)
+[2020-09-12 03:00:58] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_midi.js
+[2020-09-12 03:00:58] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_midi.js (25 ms)
+[2020-09-12 03:00:58] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/url.js
+[2020-09-12 03:00:58] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/url.js (61 ms)
+[2020-09-12 03:00:58] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/webkit_dom.js
+[2020-09-12 03:00:58] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/webkit_dom.js (86 ms)
+[2020-09-12 03:00:58] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/fileapi.js
+[2020-09-12 03:00:58] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/fileapi.js (129 ms)
+[2020-09-12 03:00:58] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_serviceworker.js
+[2020-09-12 03:00:58] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_serviceworker.js (133 ms)
+[2020-09-12 03:00:58] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_rtc.js
+[2020-09-12 03:00:59] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_rtc.js (378 ms)
+[2020-09-12 03:00:59] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_dom4.js
+[2020-09-12 03:00:59] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_dom4.js (18 ms)
+[2020-09-12 03:00:59] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_range.js
+[2020-09-12 03:00:59] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_range.js (69 ms)
+[2020-09-12 03:00:59] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_xml.js
+[2020-09-12 03:00:59] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_xml.js (77 ms)
+[2020-09-12 03:00:59] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_selectors.js
+[2020-09-12 03:00:59] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_selectors.js (29 ms)
+[2020-09-12 03:00:59] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_dom3.js
+[2020-09-12 03:00:59] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/w3c_dom3.js (154 ms)
+[2020-09-12 03:00:59] [build] Extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/webkit_usercontent.js
+[2020-09-12 03:00:59] [build] Done extracting /home/nonsensetwice/codeql/codeql/javascript/tools/data/externs/web/webkit_usercontent.js (30 ms)
+[2020-09-12 03:00:59] Plumbing command codeql database trace-command completed.
+[2020-09-12 03:00:59] [PROGRESS] database create> Finalizing database at /home/nonsensetwice/ambassador/codeql.
+[2020-09-12 03:00:59] Running plumbing command: codeql database finalize --mode=normal -- /home/nonsensetwice/ambassador/codeql
+[2020-09-12 03:00:59] [PROGRESS] database finalize> Running TRAP import for CodeQL database at /home/nonsensetwice/ambassador/codeql...
+[2020-09-12 03:00:59] Running plumbing command: codeql dataset import --dbscheme=/home/nonsensetwice/codeql/codeql/javascript/semmlecode.javascript.dbscheme -- /home/nonsensetwice/ambassador/codeql/db-javascript /home/nonsensetwice/ambassador/codeql/trap/javascript
+[2020-09-12 03:01:00] Exception caught at top level: Evaluator heap must be at least 384.00 MiB
+                      com.semmle.inmemory.alloc.MemoryManager.computeMbMaxCacheHeap(MemoryManager.java:228)
+                      com.semmle.inmemory.alloc.MemoryManager.<init>(MemoryManager.java:178)
+                      com.semmle.inmemory.MemoryBackend.<init>(MemoryBackend.java:147)
+                      com.semmle.inmemory.trap.TrapImporter.<init>(TrapImporter.java:62)
+                      com.semmle.cli2.ql.dataset.ImportCommand.executeSubcommand(ImportCommand.java:85)
+                      com.semmle.cli2.picocli.PlumbingRunner.run(PlumbingRunner.java:110)
+                      com.semmle.cli2.picocli.SubcommandCommon.runPlumbingInProcess(SubcommandCommon.java:159)
+                      com.semmle.cli2.database.FinalizeCommand.executeSubcommand(FinalizeCommand.java:105)
+                      com.semmle.cli2.picocli.PlumbingRunner.run(PlumbingRunner.java:110)
+                      com.semmle.cli2.picocli.SubcommandCommon.runPlumbingInProcess(SubcommandCommon.java:159)
+                      com.semmle.cli2.database.CreateCommand.executeSubcommand(CreateCommand.java:115)
+                      com.semmle.cli2.picocli.SubcommandCommon.call(SubcommandCommon.java:430)
+                      com.semmle.cli2.picocli.SubcommandMaker.runMain(SubcommandMaker.java:182)
+                      com.semmle.cli2.picocli.SubcommandMaker.runMain(SubcommandMaker.java:190)
+                      com.semmle.cli2.CodeQL.main(CodeQL.java:89)
