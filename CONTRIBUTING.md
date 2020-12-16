@@ -5,7 +5,7 @@ consider. This repo has been entirely rewritten from the original Passport
 codebase to remove references to classes and pseudo inheritance-style code,
 opting instead to promote a cleaner, more direct, and--quite frankly--more
 JavaScript-friendly style of Object Delegation. Furthermore, this project is
-Promises-based, with callbacks slowly being removed.
+Promises-based, with callbacks slowly being removed.  
 
 Object Delegation and Promises. If you are unsure how to work with these,
 Kyle Simpson has written two very excellent books to get you started, both
@@ -14,19 +14,8 @@ in the "You Don't Know JS" series: [this & Object Prototypes](https://www.amazon
 
 ### Tests
 
-The test suite is located in the `test/` directory.  All new features are
-expected to have corresponding test cases with complete code coverage.  Patches
-that increase test coverage are happily accepted.
+The test suite is coming and will be located in the `test/` directory. In
+the meantime, please open an issue to describe what you're working on prior
+to opening a PR. Your PR should be linted and your code style should match
+the style already present in the codebase.
 
-Ensure that the test suite passes by executing:
-
-```bash
-$ make test
-```
-
-Coverage reports can be generated and viewed by executing:
-
-```bash
-$ make test-cov
-$ make view-cov
-```
